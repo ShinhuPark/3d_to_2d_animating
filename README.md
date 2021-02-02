@@ -1,9 +1,3 @@
-# SAR-Motion-capture-animating
-This website will animate sar characters. Used tensorflow's poseNet library and added Spine runtime.
+anim.js contains values to manipulate bone transform values with.
 
-Used libraries are PoseNet, and Spine runtime WebGl.
-check out links below for more information about these library/API.
-tensor jsPoseNet github page :
-https://github.com/tensorflow/tfjs-models/tree/master/posenet
-Spine runtime for WebGl API reference :
-http://ko.esotericsoftware.com/spine-api-reference
+motion_capture.js is the main code that animate the skeleton with values in anim.js
